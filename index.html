@@ -25,12 +25,19 @@
     <h1 id="title"></h1>
     <p id="description"></p>
     <form id="survey-form">
-      <label>Name</label><br>
-      <input id="name" type="text"><br>
-      <label>Email</label><br>
-      <input id="email" type="email"><br>
-      <label>Number</label><br>
-      <input id="number" type="number" min="1" max="10">
+      <label id="name-label">Name</label><br>
+      <input id="name" type="text" placeholder="Enter your name"><br>
+      <label id="email-lebel">Email</label><br>
+      <input id="email" type="email" placeholder="Enter your email"><br>
+      <label id="number-label">Age</label><br>
+      <input id="number" type="number" min="1" max="10" placeholder="Enter your age">
+      <label for="role">Which option best describes your current role?</label>
+      <select id="dropdown" placeholder="select current role">
+        <option value="student">Student</option>
+        <option value="Full time Job">Full time Job</option>
+        
+      </select>
+      
     </form>
   </body>
 </html>
